@@ -62,4 +62,4 @@ public class DecodingFromMorse implements Decoding {
 }
 
 //Tutaj mam klasę implementującą interfejs Decoding, którego metoda wykorzystana tutaj zamienia szyfr morsa w normalne litery/cyfry.
-//Również użyłem HashMapy, a nawet dwóch oraz użyłem także 2 razy metody split w Stringu aby pozbyć się nadmiernych spacji
+//Również użyłem HashMapy oraz użyłem 2 razy metody split w Stringu aby pozbyć się nadmiernych spacji

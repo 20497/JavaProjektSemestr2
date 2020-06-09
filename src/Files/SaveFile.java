@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 public class SaveFile {
 
     public void savingFile(String result){
-        try (PrintWriter out = new PrintWriter("lastOutput.txt")) {
+        try(PrintWriter out = new PrintWriter("lastOutput.txt")) {
             out.println(result);
         }catch (FileNotFoundException e){
             e.printStackTrace();
